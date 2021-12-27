@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+
+{% block content %} 
+
+<h1>This is index template</h1>
+<h2>My name is {{ name }}</h2>
+<h3>My course is {{ course }}</h3>
+
+<a href="/about" class="btn btn-info" role="button">about</a>
+<a href="/contact" class="btn btn-info" role="button">contact</a>
+{% endblock content %} 
+
+

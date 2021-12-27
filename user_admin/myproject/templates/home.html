@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+<h1>This is Home page</h1>
+<h2>My name is <mark>{{ myname|upper}} </mark></h2>
+{% if myname == "Vikas" %}
+This is True
+{% else %}
+This is False
+{% endif %}
+
+<a href="/contact"> Contact</a>
+<a href="/about"> About</a>
+{% endblock content %}

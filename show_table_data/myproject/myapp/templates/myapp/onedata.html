@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body{
+            background-color: black;
+            color: blueviolet;
+        }
+    </style>
+    <title>Pickonedata</title>
+</head>
+<body>
+    <h1>Pick one data from table</h1>
+    {{stu}}
+
+    <table>
+    <tr>
+    <th>id</th>
+    <th>stuid</th>
+    <th>stuname</th>
+    <th>stuemail</th>
+    <th>stupass</th>
+    
+    </tr>
+    <tr>
+    <td>{{stu.id}}</td>
+    <td>{{stu.stuid}}</td>
+    <td>{{stu.stuname}}</td>
+    <td>{{stu.stuemail}}</td>
+    <td>{{stu.stupass}}<br></td>
+    </tr>
+
+    </table>
+</body>
+</html>
